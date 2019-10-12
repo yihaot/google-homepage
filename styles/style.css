@@ -12,7 +12,13 @@ ul {
 
 li {
     display: inline;
+    padding: 8px;
 }
+
+li a {
+    text-decoration: none;
+}
+
 
 main {
     /* display: block; */
@@ -32,4 +38,32 @@ main {
 
 .otherLanguages {
     padding-top: 20px;
+}
+
+input[type=text] {
+    width: 480px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    border: solid 1px #ccc;
+}
+
+.footerBar {
+    overflow: hidden;
+    background-color: #f2f2f2;
+    /* margin-top: 100px; */
+    float: none;
+    position: fixed ;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 12px;
+}
+
+.leftFooter {
+    float: left;
+}
+
+.rightFooter{
+    float: right;
 }
