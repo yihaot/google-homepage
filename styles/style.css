@@ -16,6 +16,10 @@ li {
 }
 
 li a {
+    color: black;
+}
+
+a {
     text-decoration: none;
 }
 
