@@ -21,11 +21,15 @@ main {
 
 .googleLogo {
     padding-top: 200px;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
     /* width: 272px;
     margin: 0 auto; */
 }
 
 .searchBar {
     padding-bottom: 20px;
+}
+
+.otherLanguages {
+    padding-top: 20px;
 }
