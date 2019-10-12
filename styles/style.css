@@ -13,3 +13,12 @@ ul {
 li {
     display: inline;
 }
+
+main {
+    /* display: block; */
+    text-align: center;
+}
+
+.googleLogo {
+    padding-top: 200px;
+}
