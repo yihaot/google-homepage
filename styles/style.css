@@ -80,7 +80,7 @@ main {
 
 .searchBar input {
     width: 480px;
-    height: 40px;
+    height: 44px;
     font-size: 16px;
     border-radius: 50px;
     border: none;
@@ -90,7 +90,7 @@ main {
     background-origin: content-box;
     padding: 0 17px 0 50px;
     /* display: block; */
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 
 .searchBar svg {
