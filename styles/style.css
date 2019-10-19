@@ -34,6 +34,12 @@ main {
 .topBar {
     padding-top: 10px;
     padding-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#boxIcon {
+    opacity: 0.5;
 }
 
 #userPhoto {
@@ -49,19 +55,66 @@ main {
 
 .searchBar {
     padding-bottom: 20px;
-    font-size: 13px;
+    /* font-size: 13px; */
+    /* text-align: center; */
 }
+
+/* .searchBar input {
+    padding-bottom: 0px;
+    font-size: 13px;
+} */
+
+/* .searchBar input:hover {
+    box-shadow: 1px 1px 10 10;
+} */
 
 .otherLanguages {
     padding-top: 20px;
 }
 
-input[type=text] {
+.searchBar {
+    position: relative;
+    display: inline-block;
+    /* width: 500px; */
+}
+
+.searchBar input {
     width: 480px;
     height: 40px;
+    font-size: 16px;
     border-radius: 50px;
     border: none;
     border: solid 1px #ccc;
+    background: url(../images/mic.png) no-repeat right center;
+    background-size: 24px 24px;
+    background-origin: content-box;
+    padding: 0 17px 0 50px;
+    /* display: block; */
+    /* box-sizing: border-box; */
+}
+
+.searchBar svg {
+    height: 20px;
+    width: 20px;
+    opacity: 0.3;
+    /* position: relative;
+    margin: left; */
+    position: absolute;
+    left: 15px;
+    top: 10px;
+}
+
+/* 
+.searchBar img {
+    position: absolute;
+} */
+
+input:focus {
+    outline: none;
+}
+
+.searchBar input:hover {
+    box-shadow: 0 0 6px #ccc;
 }
 
 .footerBar {
@@ -88,11 +141,23 @@ input[type=text] {
     float: right;
 }
 
-.submitButtons {
+.submitButtons input {
     padding: 8px 18px;
     background-color: #f2f2f2;
     border-radius: 3px;
     margin: 0 3px;
     border: none;
     font-size: 14px;
+    color: #5F6368;
+    box-sizing: border-box;
+    border: 1px transparent solid;
+
+}
+
+
+.submitButtons input:hover {
+
+    border: 1px rgb(198, 198, 198) solid;
+    box-shadow: 0 0 3px #ccc;
+    color: #222;
 }
